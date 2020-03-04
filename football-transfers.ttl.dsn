@@ -1,0 +1,6 @@
+[ODBC]
+DRIVER=SQL Server Native Client 11.0
+WSID=KLIENT2
+APP=cppdemo Module
+Trusted_Connection=Yes
+SERVER=KLIENT2\SQLEXPRESS2014

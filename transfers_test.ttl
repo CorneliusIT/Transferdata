@@ -1,0 +1,120 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<https://transfermarkt.com/bogdan-mladenovic/profil/spieler/363295#player> a <https://transfermarkt.com/ontology#Player> ;
+	foaf:name "Bogdan Mladenovic" ;
+	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/default.jpg?lm=1455618221" .
+
+<https://transfermarkt.com/ontology#Attacking+Midfield> a <https://transfermarkt.com/ontology#Position> ;
+	rdfs:label "Attacking Midfield" .
+
+<https://transfermarkt.com/bogdan-mladenovic/profil/spieler/363295#player> <https://transfermarkt.com/ontology#hasPosition> <https://transfermarkt.com/ontology#Attacking+Midfield> .
+
+<http://dbpedia.org/resource/Serbia> rdfs:label "Serbia" .
+
+<https://transfermarkt.com/bogdan-mladenovic/profil/spieler/363295#player> <https://transfermarkt.com/ontology#nationality> <http://dbpedia.org/resource/Serbia> ;
+	<https://transfermarkt.com/ontology#age> "23"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<https://transfermarkt.com/jumplist/transfers/spieler/363295/transfer_id/2592224#transfer> a <https://transfermarkt.com/ontology#Transfer> ;
+	<https://transfermarkt.com/ontology#transferredPlayer> <https://transfermarkt.com/bogdan-mladenovic/profil/spieler/363295#player> ;
+	<https://transfermarkt.com/ontology#timestamp> "1564959600" ;
+	<https://transfermarkt.com/ontology#fromClub> <https://transfermarkt.com/fk-rad-belgrad/startseite/verein/902#club> ;
+	<https://transfermarkt.com/ontology#toClub> <https://transfermarkt.com/gil-vicente-fc/startseite/verein/2424#club> ;
+	rdfs:label "Bogdan Mladenovic to Gil Vicente" ;
+	<https://transfermarkt.com/ontology#transferDate> "2019-08-01 00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<https://transfermarkt.com/ontology#season> <https://transfermarkt.com/ontology#2019/2020> .
+
+<https://transfermarkt.com/gil-vicente-fc/startseite/verein/2424#club> a <https://transfermarkt.com/ontology#Club> ;
+	rdfs:label "Gil Vicente" ;
+	<https://transfermarkt.com/ontology#league> <https://transfermarkt.com/primeira-liga/transfers/wettbewerb/PO1#league> ;
+	foaf:depiction <https://tmssl.akamaized.netimages/wappen/big/2424.png?lm=1416391504> .
+
+<https://transfermarkt.com/ontology#Portugal> rdfs:label "Portugal" .
+
+<https://transfermarkt.com/gil-vicente-fc/startseite/verein/2424#club> <https://transfermarkt.com/ontology#country> <https://transfermarkt.com/ontology#Portugal> .
+
+<https://transfermarkt.com/fk-rad-belgrad/startseite/verein/902#club> a <https://transfermarkt.com/ontology#Club> ;
+	rdfs:label "Rad" ;
+	<https://transfermarkt.com/ontology#league> <https://transfermarkt.com/superliga/transfers/wettbewerb/SER1#league> ;
+	foaf:depiction <https://tmssl.akamaized.netimages/wappen/big/902.png?lm=1445329513> .
+
+<https://transfermarkt.com/ontology#Serbia> rdfs:label "Serbia" .
+
+<https://transfermarkt.com/fk-rad-belgrad/startseite/verein/902#club> <https://transfermarkt.com/ontology#country> <https://transfermarkt.com/ontology#Serbia> .
+
+<https://transfermarkt.com/primeira-liga/transfers/wettbewerb/PO1#league> a <https://transfermarkt.com/ontology#League> ;
+	rdfs:label "Liga NOS" .
+
+<https://transfermarkt.com/superliga/transfers/wettbewerb/SER1#league> a <https://transfermarkt.com/ontology#League> ;
+	rdfs:label "Linglong Tire Super liga Srbije" .
+
+<https://transfermarkt.com/ontology#2019%2F2020%23season> a <https://transfermarkt.com/ontology#FootballSeason> ;
+	rdfs:label "2019/2020" .
+
+<https://transfermarkt.com/artur-aymetdinov/profil/spieler/394944#player> a <https://transfermarkt.com/ontology#Player> ;
+	foaf:name "Artur Aymetdinov" ;
+	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/394944-1557230617.png?lm=1557230637" .
+
+<https://transfermarkt.com/ontology#Right+Midfield> a <https://transfermarkt.com/ontology#Position> ;
+	rdfs:label "Right Midfield" .
+
+<https://transfermarkt.com/artur-aymetdinov/profil/spieler/394944#player> <https://transfermarkt.com/ontology#hasPosition> <https://transfermarkt.com/ontology#Right+Midfield> .
+
+<http://dbpedia.org/resource/Russia> rdfs:label "Russia" .
+
+<https://transfermarkt.com/artur-aymetdinov/profil/spieler/394944#player> <https://transfermarkt.com/ontology#nationality> <http://dbpedia.org/resource/Russia> ;
+	<https://transfermarkt.com/ontology#age> "27"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<https://transfermarkt.com/jumplist/transfers/spieler/394944/transfer_id/2594948#transfer> a <https://transfermarkt.com/ontology#Transfer> ;
+	<https://transfermarkt.com/ontology#transferredPlayer> <https://transfermarkt.com/artur-aymetdinov/profil/spieler/394944#player> ;
+	<https://transfermarkt.com/ontology#timestamp> "1564959600" ;
+	<https://transfermarkt.com/ontology#fromClub> <https://transfermarkt.com/fk-yevpatoria/startseite/verein/50529#club> ;
+	<https://transfermarkt.com/ontology#toClub> <https://transfermarkt.com/tsk-simferopol/startseite/verein/45156#club> ;
+	rdfs:label "Artur Aymetdinov to TSK-Tavriya" ;
+	<https://transfermarkt.com/ontology#transferDate> "2019-08-01 00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<https://transfermarkt.com/ontology#season> <https://transfermarkt.com/ontology#2019/2020> .
+
+<https://transfermarkt.com/tsk-simferopol/startseite/verein/45156#club> a <https://transfermarkt.com/ontology#Club> ;
+	rdfs:label "TSK-Tavriya" ;
+	<https://transfermarkt.com/ontology#league> <https://transfermarkt.com/ontology#%23league> ;
+	foaf:depiction <https://tmssl.akamaized.netimages/wappen/big/45156.png?lm=1408555555> .
+
+<https://transfermarkt.com/ontology#Russia> rdfs:label "Russia" .
+
+<https://transfermarkt.com/tsk-simferopol/startseite/verein/45156#club> <https://transfermarkt.com/ontology#country> <https://transfermarkt.com/ontology#Russia> .
+
+<https://transfermarkt.com/fk-yevpatoria/startseite/verein/50529#club> a <https://transfermarkt.com/ontology#Club> ;
+	rdfs:label "Yevpatoria" ;
+	foaf:depiction <https://tmssl.akamaized.netimages/wappen/big/50529.png?lm=1443939709> ;
+	<https://transfermarkt.com/ontology#country> <https://transfermarkt.com/ontology#Russia> .
+
+<https://transfermarkt.com/ontology#%23league> a <https://transfermarkt.com/ontology#League> .
+
+<https://transfermarkt.com/petter-mathias-olsen/profil/spieler/405938#player> a <https://transfermarkt.com/ontology#Player> ;
+	foaf:name "Petter Mathias Olsen" ;
+	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/default.jpg?lm=1455618221" .
+
+<https://transfermarkt.com/ontology#Central+Midfield> a <https://transfermarkt.com/ontology#Position> ;
+	rdfs:label "Central Midfield" .
+
+<https://transfermarkt.com/petter-mathias-olsen/profil/spieler/405938#player> <https://transfermarkt.com/ontology#hasPosition> <https://transfermarkt.com/ontology#Central+Midfield> .
+
+<http://dbpedia.org/resource/Norway> rdfs:label "Norway" .
+
+<https://transfermarkt.com/petter-mathias-olsen/profil/spieler/405938#player> <https://transfermarkt.com/ontology#nationality> <http://dbpedia.org/resource/Norway> ;
+	<https://transfermarkt.com/ontology#age> "21"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<https://transfermarkt.com/jumplist/transfers/spieler/405938/transfer_id/2594360#transfer> a <https://transfermarkt.com/ontology#Transfer> ;
+	<https://transfermarkt.com/ontology#transferredPlayer> <https://transfermarkt.com/petter-mathias-olsen/profil/spieler/405938#player> ;
+	<https://transfermarkt.com/ontology#timestamp> "1564959600" ;
+	<https://transfermarkt.com/ontology#fromClub> <https://transfermarkt.com/lillestrom-sk/startseite/verein/353#club> ;
+	<https://transfermarkt.com/ontology#toClub> <https://transfermarkt.com/grorud-il/startseite/verein/36228#club> ;
+	rdfs:label "Petter Mathias Olsen to Grorud IL" ;
+	<https://transfermarkt.com/ontology#transferDate> "2019-08-01 00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<https://transfermarkt.com/ontology#season> <https://transfermarkt.com/ontology#2019/2020> .
